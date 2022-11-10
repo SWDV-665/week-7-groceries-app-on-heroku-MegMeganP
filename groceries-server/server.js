@@ -8,7 +8,7 @@ var cors = require('cors');
 
 // Configuration
 //mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/groceries");
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://mperry:<password>@cluster0.axhobna.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://xxxxxxxxxxxx@cluster0.xxxxxxxxxxxxx.mongodb.net/?retryWrites=true&w=majority");
 
 
 app.use(bodyParser.urlencoded({'extended': 'true'}));
